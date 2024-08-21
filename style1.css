@@ -1,9 +1,18 @@
+body {
+    margin: 10px 0px;
+    background-color: #d4f1d8;
+}
+
 .header-container {
     display: flex;
+    box-shadow: 0 5.569px 11.137px 0 rgba(134, 150, 165, 0.4);
     justify-content: center;
+    border-radius: 30px;
     align-items: center;
     background: #fff;
-    width: 100%;
+    width: 95%;
+    opacity: 70%;
+    margin: 10px 35px;
     position: fixed;
     gap: 40px 44px;
     flex-wrap: wrap;
@@ -49,8 +58,7 @@
     min-width: 240px;
     align-items: start;
     gap: 50px;
-
-    font-size: 12px;
+    font-size: 14px;
     color: #4d4d4d;
     text-align: center;
     white-space: nowrap;
@@ -283,16 +291,16 @@ a {
     margin-top: 11px;
     width: auto;
     align-items: center;
-    /* gap: 40px 89px; */
+    gap: 0px 20px;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0 100px;
+    padding: 0 200px;
 }
   
 .feature-card {
     align-items: center;
     border-radius: 5.569px;
-    background: #fff;
+    background-color: #7abf8f;
     box-shadow: 0 1.392px 2.784px 0 rgba(171, 190, 209, 0.2);
     align-self: stretch;
     display: flex;
@@ -784,7 +792,7 @@ a {
 .article-content {
     border-radius: 5.569px;
     background-color: #f5f7fa;
-    box-shadow: 0 5.569px 11.137px 0 rgba(171, 190, 209, 0.4);
+    box-shadow: 0 5.569px 11.137px 0 rgba(134, 150, 165, 0.4);
     display: flex;
     flex-direction: column;
     justify-content: start;
